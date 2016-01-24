@@ -2,14 +2,12 @@
 
 sudo apt-get install -y git vim kupfer aptitude \
   software-properties-common bash-completion apt-file \
-  tmux gcc automake autoconf pulseaudio ncdu
+  tmux gcc automake autoconf pulseaudio ncdu htop
 
-git config core.email billiamthesecond@gmail.com
-git config core.name Billiam
+git config --global user.email billiamthesecond@gmail.com
+git config --global user.name Billiam
 
 setxkbmap dvorak
-echo 'setxkbmap dvorak' >> ~/.config/lxsession/LXDE/autostart
-echo 'syndaemon -i 1 -d -t -K -R' >> ~/.config/lxsession/LXDE/autostart
 
 sudo add-apt-repository ppa:brightbox/ruby-ng -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y

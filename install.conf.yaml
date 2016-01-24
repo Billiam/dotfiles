@@ -1,5 +1,8 @@
 - clean: ['~']
 - link:
-  ~/.dotfiles:     ''
-  ~/.tmux.conf:    tmux.conf
+    ~/.dotfiles:     ''
+    ~/.tmux.conf:    tmux.conf
+    ~/.bashrc:       bashrc
+    ~/.bash_aliases: bash_aliases
+    ~/.config/lxsession/LXDE/autostart config/lxsession/LXDE/autostart
 - shell: []
