@@ -113,4 +113,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-test -z "$TMUX" && (tmux attach || tmux new-session)
+if [ `basename "$(cat "/proc/$PPID/comm")"` != 'tilda' ]; then
+  test -z "$TMUX" && (tmux attach || tmux new-session)
+fi

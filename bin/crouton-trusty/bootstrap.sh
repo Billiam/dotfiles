@@ -2,7 +2,8 @@
 
 sudo apt-get install -y git vim kupfer aptitude \
   software-properties-common bash-completion apt-file \
-  tmux gcc automake autoconf pulseaudio ncdu htop
+  tmux gcc automake autoconf pulseaudio ncdu htop \
+  tilda
 
 git config --global user.email billiamthesecond@gmail.com
 git config --global user.name Billiam
