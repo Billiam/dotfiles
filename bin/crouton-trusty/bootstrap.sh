@@ -3,10 +3,16 @@
 sudo apt-get install -y git vim kupfer aptitude \
   software-properties-common bash-completion apt-file \
   tmux gcc automake autoconf pulseaudio ncdu htop \
-  tilda
+  tilda etckeeper
 
 git config --global user.email billiamthesecond@gmail.com
 git config --global user.name Billiam
+
+# Enable git in etckeeper
+sudo sed -e 's:^\(VCS\s*=.*bzr\):#\1:' -e 's:^#\(VCS\s*=.*git\):\1:' -i /etc/etckeeper/etckeeper.conf
+
+sudo etckeeper init
+sudo etckeeper commit "Initial commit"
 
 setxkbmap dvorak
 
