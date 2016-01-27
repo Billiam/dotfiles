@@ -3,15 +3,16 @@
 sudo apt-get install -y vim kupfer aptitude \
   software-properties-common bash-completion apt-file \
   tmux gcc automake autoconf pulseaudio ncdu htop \
-  tilda etckeeper
+  tilda etckeeper keepass2
 
 sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo add-apt-repository ppa:brightbox/ruby-ng -y
+sudo add-apt-repository ppa:paolorotolo/copy -y
 
 sudo aptitude update
 sudo aptitude install git ruby2.3 ruby2.3-dev \
-  sublime-text-installer ruby-switch
+  sublime-text-installer ruby-switch copy
 
 git config --global user.email billiamthesecond@gmail.com
 git config --global user.name Billiam
