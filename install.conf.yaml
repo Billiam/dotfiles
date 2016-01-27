@@ -9,4 +9,5 @@
     ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings: config/sublime-text-3/Packages/User/Preferences.sublime-settings
     ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings: config/sublime-text-3/Packages/User/Package Control.sublime-settings
     ~/.config/tilda/config_0: config/tilda/config_0
+    ~/.config/clipit/clipitrc: config/clipit/clipitrc
 - shell: []

@@ -3,7 +3,7 @@
 sudo apt-get install -y vim kupfer aptitude \
   software-properties-common bash-completion apt-file \
   tmux gcc automake autoconf pulseaudio ncdu htop \
-  tilda etckeeper keepass2
+  tilda etckeeper keepass2 clipit
 
 sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
