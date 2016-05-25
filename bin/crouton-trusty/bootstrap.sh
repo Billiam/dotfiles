@@ -8,11 +8,10 @@ sudo apt-get install -y vim kupfer aptitude \
 sudo add-apt-repository ppa:git-core/ppa -y
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y
 sudo add-apt-repository ppa:brightbox/ruby-ng -y
-sudo add-apt-repository ppa:paolorotolo/copy -y
 
 sudo aptitude update
 sudo aptitude install git ruby2.3 ruby2.3-dev \
-  sublime-text-installer ruby-switch copy
+  sublime-text-installer ruby-switch
 
 git config --global user.email billiamthesecond@gmail.com
 git config --global user.name Billiam

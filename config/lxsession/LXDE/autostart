@@ -5,4 +5,3 @@
 setxkbmap dvorak
 syndaemon -i 1 -d -t -K -R
 tilda
-@/opt/copy-client/CopyConsole
